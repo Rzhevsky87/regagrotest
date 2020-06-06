@@ -12,4 +12,12 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css')
+    .sass('resources/sass/Locations/locations.scss', 'public/css/Locations/locations.css');
+
+
+// mix;
+// mix.sass('resources/sass/app.scss', 'public/css');
+
+// This fixed Popper warning
+// mix.js('resources/js/app.js', 'public/js').sourceMaps();
