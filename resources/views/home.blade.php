@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <a href="{{ route('locations') }}">
+                        Перейти к таблице
+                    </a>
                 </div>
             </div>
         </div>

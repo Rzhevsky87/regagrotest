@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        
         <style>
             html, body {
                 background-color: #fff;
@@ -81,8 +83,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Использовались :
                 </div>
+
+                <hr class="my-4">
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -94,6 +98,12 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+
+                <hr class="my-4">
+
+                <p class="lead m-b-md">
+                    Саму таблицу можно увидить после регистрации
+                </p>
             </div>
         </div>
     </body>

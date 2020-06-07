@@ -1,11 +1,13 @@
-.locColor {
-	color:#319dae;
+.card-header_title{
+	text-align: center;
 }
 
-.ll{
-	text-transform:uppercase;
+.form-wrapper{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.qw{
-	text-align:right;
+.font-weight-bold{
+	font-weight: 900 !important;
 }

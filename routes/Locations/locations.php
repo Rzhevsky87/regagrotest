@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\Route;
  * base path routes/Locations/
  *
  */
-Route::prefix('/')->group(function () {
-    Route::get('/', 'LocationsController@index');
+Route::prefix('/')->middleware('web')->group(function () {
+    Route::get('/', 'LocationsController@index')
+    	->name('locations');
+    Route::get('getLocations', 'LocationsController@getLocations')
+    	->name('getLocations');
+    Route::post('storeLocation', 'LocationsController@storeLocation')
+    	->name('storeLocation');
 });
