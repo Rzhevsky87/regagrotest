@@ -89,14 +89,14 @@
                 <hr class="my-4">
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">laravel</a>
+                    <a href="https://dev.mysql.com/">mysql</a>
+                    <a href="https://laravel.com/docs/7.x/telescope">telescope</a>
+                    <a href="http://docs.guzzlephp.org/en/stable/index.html">guzzlephp</a>
+                    <a href="https://tech.yandex.ru/maps/geocoder/">yandex geocoder</a>
+                    <a href="https://vuejs.org/">vuejs</a>
+                    <a href="https://sass-lang.com/">Sass</a>
+                    <a href="https://www.npmjs.com/">npmjs</a>
                 </div>
 
                 <hr class="my-4">
